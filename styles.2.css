@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0; /*para tirar todas as margens*/
+    padding: 0; /*para tirar todos os paddings*/
+    box-sizing: border-box;
+    text-decoration: none;/*retirar a linha vermelha dos links*/
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    overflow: hidden; /*vai ajudar a escurecer o background*/
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(midias/cinema.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%; /*ajudar na responsividade do site*/
+    align-items: center; /*centralizar os itens */
+    text-align: center;
+    padding-top: 1rem; /*dar uma afastada do topo*/
+}
+
+
+.titulo{
+    color: #fff;
+
+}
+
+.titulo:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+/* Centralizar a div do título */
+
+.background-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+}
+
+.titulo{
+    margin-top: 45px;
+}

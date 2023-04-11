@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0; /*para tirar todas as margens*/
+    padding: 0; /*para tirar todos os paddings*/
+    box-sizing: border-box;
+    text-decoration: none;/*retirar a linha vermelha dos links*/
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden; /*vai ajudar a escurecer o background*/
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(midias/pexels222.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%; /*ajudar na responsividade do site*/
+    align-items: center; /*centralizar os itens */
+    text-align: center;
+    padding-top: 1rem; /*dar uma afastada do topo*/
+}
+
+.cabecalho-link{
+    display: flex; /* alinhar os links */
+    gap: 3rem; /* gerar afastamento entre os liks */
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+/*Estilização do cabeçalho link e as âncoras*/
+.cabecalho-link-a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.cabecalho-link-a:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.botao{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.text span{
+    color: #2ecc71;
+}
+
+.text p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.botao-2{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.botao-2:hover{
+    background: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.botao-2{
+    margin-top: 10px;
+}
